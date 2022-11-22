@@ -1,0 +1,19 @@
+.auth__root {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.auth__status {
+  display: none;
+}
+.auth__input {
+  margin: 10px;
+}
+.auth__toggle {
+  margin: 10px;
+  color: dimgray;
+  cursor: pointer;
+}

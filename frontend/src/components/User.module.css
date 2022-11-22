@@ -1,0 +1,8 @@
+.user__status {
+  display: none;
+}
+.user__item {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
