@@ -1,0 +1,19 @@
+{
+    "extends": "@tsconfig/node14/tsconfig.json",
+    "compilerOptions": {
+        "outDir": "./dist",
+        "resolveJsonModule": true,
+        "baseUrl": "./backend",
+        "typeRoots": [
+            "backend/@types",
+            "node_modules/@types"
+        ],
+    },
+    "include": [
+        "backend/**/*.ts",
+        "backend/**/*.js"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
